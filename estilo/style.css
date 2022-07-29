@@ -31,25 +31,66 @@ body {
 }
 
 header {
+    background-color: var(--boy3);
     min-height: 50px;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--boy3);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: var(--boy5);
+}
+
+main {
+    background-color: var(--boy3);
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px var(--boy3);
 }
 
 main img {
     width: 100%;
+    border-radius: 5px;
 }
 
-.img.pequena {
-    max-width: 350px;
+main h1 {
+    color: var(--boy1);
+    size: 2em;
+}
+
+.img {
     display: block;
     margin: auto;
+}
+
+picture {
+    border-radius: 20px;
+}
+
+.lista {
+    list-style-position: inside;
 }
 
 .carta > p {
     font-family: var(--fonte-manuscrito);
     font-size: 2em;
-    box-shadow: 3px 3px 8px black;
     padding-top: 5PX;
 }
 
